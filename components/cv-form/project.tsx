@@ -23,8 +23,9 @@ import {
   EyeClosedIcon,
   StarIcon
 } from "@radix-ui/react-icons";
-import Editor from "@/components/editor";
 import useProject from "@/stores/project";
+import dynamic from "next/dynamic";
+const Editor = dynamic(() => import('@/components/editor'), { ssr: false });
 
 function ProjectForm() {
   const {

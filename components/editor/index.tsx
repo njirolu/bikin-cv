@@ -10,7 +10,6 @@ import "../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 interface EditorProps {
   content: string;
   onUpdate: (value: string) => void;
-  // index: number
 }
 
 const Editor = ({ onUpdate, content }: EditorProps) => {

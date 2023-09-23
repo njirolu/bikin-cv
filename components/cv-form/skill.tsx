@@ -18,8 +18,9 @@ import {
   EyeClosedIcon,
   LightningBoltIcon
 } from "@radix-ui/react-icons";
-import Editor from "@/components/editor";
 import useSkill from "@/stores/skill";
+import dynamic from "next/dynamic";
+const Editor = dynamic(() => import('@/components/editor'), { ssr: false });
 
 function SkillForm() {
   const {

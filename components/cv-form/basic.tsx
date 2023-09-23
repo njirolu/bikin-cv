@@ -11,7 +11,7 @@ import {
   Input,
   Flex,
 } from "@chakra-ui/react";
-import Editor from "@/components/editor";
+import dynamic from "next/dynamic";
 
 function BasicForm() {
   const {
@@ -30,6 +30,8 @@ function BasicForm() {
     setPhoneNumber,
     setWantedJobTitle,
   } = useBasic((state) => state);
+
+  const Editor = dynamic(() => import('@/components/editor'), { ssr: false });
 
   return (
     <Card>
