@@ -1,0 +1,48 @@
+{
+  "basic": {
+    "name": "John Doe",
+    "objective": "<p>Passionate software engineer with a strong background in web development. Seeking opportunities to work as a Frontend Engineer in the tech industry.</p>",
+    "wantedJobTitle": "Frontend Engineer",
+    "email": "johndoe@example.com",
+    "phoneNumber": "+62 123 4567 890",
+    "website": "https://johndoe.com",
+    "location": "Jakarta, Indonesia"
+  },
+  "experiences": [
+    {
+      "id": "14d58122-d2e4-4db8-802a-e2004e469330",
+      "company_name": "Tech Solutions Indonesia",
+      "location": "Jakarta, Indonesia",
+      "job_title": "Frontend Engineer",
+      "date": "Jul 2021 - Jul 2023",
+      "description": "<p>Developed responsive web applications using React and Redux. Collaborated with the design team to implement user-friendly interfaces.</p>"
+    },
+    {
+      "id": "14d58122-d2e4-4db8-802a-e2004e469331",
+      "company_name": "CodeCrafters",
+      "location": "Surabaya, Indonesia",
+      "job_title": "Backend Engineer",
+      "date": "Jan 2019 - Jun 2021",
+      "description": "<p>Built RESTful APIs using Node.js and Express. Worked on database design and optimization.</p>"
+    }
+  ],
+  "educations": [
+    {
+      "id": "f85e72f5-8de5-43b6-a107-c634ee936cd2",
+      "schoolName": "University of Indonesia",
+      "date": "2016 - 2020",
+      "degreeAndMajor": "Bachelor of Science in Computer Science",
+      "gpa": "3.75",
+      "description": "<p>Led a student coding club and participated in several hackathons.</p>"
+    }
+  ],
+  "projects": [
+    {
+      "id": "f85e72f5-8de5-43b6-a107-c634ee936ed2",
+      "projectName": "bikin cv",
+      "description": "<p>CV Builder for job hunter.</p>",
+      "date": "22 Sept 2023"
+    }
+  ],
+  "skills": "<ul><li>React.js</li><li>Next.js</li><li>Redux</li><li>Node.js</li><li>Express.js</li><li>HTML/CSS</li><li>Git</li><li>Node.js</li></ul>"
+}
